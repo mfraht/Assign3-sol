@@ -3,7 +3,7 @@ class SpecialHeader extends HTMLElement {
     this.innerHTML = `
         <header> 
             <nav>
-                <a href="../index.html"><img src="/images/logo.png" alt="Delilah's Doggy Daycare logo" /></a>
+                <a href="../index.html"><img src="../images/logo.png" alt="Delilah's Doggy Daycare logo" /></a>
             </nav>
         <h1>Delilah's Doggy Daycare</h1>
         </header>
