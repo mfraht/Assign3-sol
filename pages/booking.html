@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles /styles.css" />
+    <script src="../scripts/styles.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <special-header></special-header>
+    <main class="booking">
+      <h1>Booking Rate Calculator</h1>
+      <h3>My pup will come in on</h3>
+      <div class="days">
+        <h3 id="monDay">Mon</h3>
+        <h3 id="tueDay">Tue</h3>
+        <h3 id="wedDay">Wed</h3>
+        <h3 id="thuDay">Thu</h3>
+        <h3 id="friDay">Fri</h3>
+      </div>
+      <div>
+        <h3>for <span id="full">Full</span> or <span id="half">Half</span> days.</h3>
+      </div>
+      <h2>My weekly cost will be $<span id="weekly-cost">0</span>.</h2>
+      <button id="clear-days" onclick="clearDays()">Clear Days</button>
+    </main>
+    <special-footer></special-footer>
+  </body>
+</html>

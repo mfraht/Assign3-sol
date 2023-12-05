@@ -1,0 +1,91 @@
+main {
+    height: 500px;
+}
+header, footer {
+    display: flex;
+    background: GoldenRod;
+}
+header h1{
+    align-self: center;
+    font-size: 50px;
+    padding-left: 30%;
+}
+
+h1, h3{
+    text-align: center;
+}
+.main-about {
+    display: flex;
+    margin: 20px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    gap: 30%;
+}
+button{
+    background: GoldenRod;
+    width: 200px;
+    height: 75px;
+    font-size: 20px;
+    cursor: pointer;
+    align-self: center;
+    margin: 20px;
+}
+button:hover{
+    background: rgb(29, 95, 188);
+    color: white;
+    text-decoration: underline;
+}
+aside {
+    align-self: center;
+}
+aside img {
+    width: 300px;
+    margin: 20px;
+}
+footer{
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+}
+.form, .days {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.days h3, #full, #half {
+    padding: 5px 20px;
+    border:black solid 2px;
+    cursor: pointer;
+}
+#full {
+    background: GoldenRod;
+}
+.label, .input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+}
+.label{
+    text-align: right;
+}
+.input{
+    text-align: left;
+}
+.form-button {
+    width: 400px;
+    height: 50px;
+    margin: 0px;
+}
