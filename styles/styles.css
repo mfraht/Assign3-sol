@@ -10,7 +10,9 @@ header h1{
     font-size: 50px;
     padding-left: 30%;
 }
-
+#about{
+    text-align: left;
+}
 h1, h3{
     text-align: center;
 }
@@ -20,7 +22,7 @@ h1, h3{
     justify-content: center;
 }
 article {
-    width: 600px;
+    width: 40%;
 }
 section {
     display: flex;
