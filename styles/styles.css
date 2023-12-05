@@ -17,6 +17,10 @@ h1, h3{
 .main-about {
     display: flex;
     margin: 20px;
+    justify-content: center;
+}
+article {
+    width: 600px;
 }
 section {
     display: flex;
@@ -75,13 +79,14 @@ footer{
 .label, .input{
     display: flex;
     flex-direction: column;
-    width: 400px;
     gap: 20px;
 }
 .label{
+    width: 100px;
     text-align: right;
 }
 .input{
+    width: 400px;
     text-align: left;
 }
 .form-button {
