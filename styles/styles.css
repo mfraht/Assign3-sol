@@ -1,29 +1,36 @@
 main {
     height: 500px;
 }
+
 header, footer {
     display: flex;
     background: GoldenRod;
 }
-header h1{
+
+header h1 {
     align-self: center;
     font-size: 50px;
     padding-left: 30%;
 }
-#about{
+
+#about {
     text-align: left;
 }
-h1, h3{
+
+h1, h3 {
     text-align: center;
 }
+
 .main-about {
     display: flex;
     margin: 20px;
     justify-content: center;
 }
+
 article {
     width: 40%;
 }
+
 section {
     display: flex;
     flex-direction: row;
@@ -31,7 +38,8 @@ section {
     justify-content: center;
     gap: 30%;
 }
-button{
+
+button {
     background: GoldenRod;
     width: 200px;
     height: 75px;
@@ -40,31 +48,36 @@ button{
     align-self: center;
     margin: 20px;
 }
-button:hover{
+
+button:hover {
     background: rgb(29, 95, 188);
     color: white;
     text-decoration: underline;
 }
+
 aside {
     align-self: center;
 }
+
 aside img {
     width: 300px;
     margin: 20px;
 }
-footer{
+
+footer {
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
 }
-.booking {
+
+.booking, .form, .days {
     display: flex;
     flex-direction: column;
     align-content: space-around;
     text-align: center;
 }
+
 .form, .days {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
@@ -72,25 +85,30 @@ footer{
 
 .days h3, #full, #half {
     padding: 5px 20px;
-    border:black solid 2px;
+    border: black solid 2px;
     cursor: pointer;
 }
+
 #full {
     background: GoldenRod;
 }
-.label, .input{
+
+.label, .input {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.label{
+
+.label {
     width: 100px;
     text-align: right;
 }
-.input{
+
+.input {
     width: 400px;
     text-align: left;
 }
+
 .form-button {
     width: 400px;
     height: 50px;
